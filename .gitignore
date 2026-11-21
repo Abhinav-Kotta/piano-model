@@ -1,0 +1,32 @@
+# Local environment and caches
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+.env
+.env.*
+!.env.example
+
+# Training data, weights, and tracking stores
+data/
+checkpoints/
+mlartifacts/
+mlruns/
+mlflow.db*
+*.sqlite*
+evaluation_datasets/
+*.pt
+*.pth
+*.safetensors
+*.mid
+*.midi
+
+# Local research history and generated outputs
+.local/
+archive/
+reports/
+*.log
+*.tar.gz
+*.zip
